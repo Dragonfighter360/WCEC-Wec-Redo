@@ -1,207 +1,71 @@
+# [Start Bootstrap - Grayscale](https://startbootstrap.com/template-overviews/grayscale/)
 
-<!DOCTYPE html>
-<html lang="en">
+[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-  <head>
+## Preview
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+[![Grayscale Preview](https://startbootstrap.com/assets/img/templates/grayscale.jpg)](https://blackrockdigital.github.io/startbootstrap-grayscale/)
 
-    <title>Wilmington Community Evangelical Church</title>
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-grayscale/)**
 
-    <!-- Image Grid CSS -->
-    <link rel="stylesheet" type="./css/bordercss" href=""> 
+## Status
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-grayscale/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-grayscale.svg)](https://www.npmjs.com/package/startbootstrap-grayscale)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-grayscale.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-grayscale)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale?type=dev)
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+## Download and Installation
 
-    <!-- Custom styles for this template -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/grayscale/)
+* Install via npm: `npm i startbootstrap-grayscale`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-grayscale.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-grayscale)
 
-  </head>
+## Usage
 
-  <body id="page-top">
+### Basic Usage
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">WCEC</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#programs">Programs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-    <!-- Intro Header -->
-    <header id="parallax1" class="masthead">
-      <div class="intro-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h1 class="brand-heading">WCEC</h1>
-              <a href="#about" class="btn btn-circle js-scroll-trigger">
-                <i class="fa fa-angle-double-down animated"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+### Advanced Usage
 
-    <style>
-        #spacing { margin-top: 150px; margin-bottom: 150px; 
-      }
-        #spacing1 { margin-top: 50px; margin-bottom: 50px }
-    </style>
+After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-    <section>
-      <div class="container">
-        <div class="row">
-          <div id="spacing">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+#### Gulp Tasks
 
-    <section>
-      <div class="container">
-        <div id="spacing" class="row">
-          <div class="col-lg-6 mx-auto">
-            <p class="intro-text"><font size="6">"A purposeful and vibrant church that bridges Asian-American Christians to the local community through meaningful service and engagement"</font></p>
-          </div>
-        </div>
-       </div>    
-    </section>
+- `gulp` the default task that builds everything
+- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
+- `gulp sass` compiles SCSS files into CSS
+- `gulp minify-css` minifies the compiled CSS file
+- `gulp minify-js` minifies the themes JS file
+- `gulp copy` copies dependencies from node_modules to the vendor directory
 
-    <style>
-      #container {
-      border-radius: 10px
-      border-color: white ;
-      border-width: auto;
-      box-shadow: 10px 10px white, 20px 20px black, 30px 30px white, -10px -10px white, -20px -20px black, -30px -30px white; 
+## Bugs and Issues
 
-      }
-    </style>
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-grayscale/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/grayscale/).
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
+## Custom Builds
 
-      #parallax1 {
-        background-image: url("./img/intro-bg.jpg");
-        min-height: auto;
-        min-width: 700; 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
 
-    </style>
+## About
 
-    <section id="about" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div id="container">
-            <div class="col-lg-8 mx-auto">
-              <br>
-               <div>
-                <p align="justify"><font size="4.5">Founded in 1981, Wilmington Community Evangelical Church (WCEC) is a bi-cultural and bilingual (Chinese and English) church committed to building up the kingdom of God among the Chinese-Americans and their associates in northern Delaware and the surrounding Maryland, New Jersey, and Pennsylvania. Average Sunday attendance of the combined Mandarin and English church is around 360 of which 70-80 people attend the English Sunday service. A typical English Sunday service includes youth, parents of the youth, college students, young professionals, and adults. The church currently has a Mandarin ministry pastor, a Children’s Ministry staff, and a Youth Director. <br> <br> We offer practical teachings at all levels from worship services to small groups. We encourage individuals to practice private spiritual discipline and to take on opportunities for personal ministry.  And with intentional effort to foster friendship circles, providential relationships and pivotal circumstances round out the catalysts for spiritual growth.</font></p>
-              </div>
-            </div>
-          </div> 
-        </div>
-      </div>
-    </section>
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-    <section>
-  
-    </section> 
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
 
-    
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-    <section id="programs" class="programs-section content-section text-center">
-      <div class="container">
-        <div class="col-lg-8 mx-auto">
-          <h2>Our Programs and Services</h2>
-            <p>Friday Night Youth Group, Community Service and more!</p>
-            <a class="nav-link js-scroll-trigger" ><a class="btn btn-default btn-lg" href="#footer" >Visit Us</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- Contact Section -->
-    <section id="contact" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact WCEC</h2>
-            <p>Our Social  Media Platforms</p>
-            <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/wcec.em" class="btn btn-default btn-lg" target="_blank" >
-                  <i class="fa fa-facebook fa-fw"></i>
-                  <span class="network-name">Facebook</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://instagram.com/wcecyg" target="_blank" class="btn btn-default btn-lg" target="_blank">
-                  <i class="fa fa-instagram fa-fw"></i>
-                  <span class="network-name">Instagram</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="http://www.wcec-home.org" target="_blank" class="btn btn-default btn-lg" target="_blank" >
-                  <i class="fa fa-language fa-fw"></i>
-                  <span class="network-name">中文</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-    <div id="footer">
-    <a href="https://goo.gl/maps/TCJqG77JoEv" target="_blank" ><div id="map"></div></a>
-    </div>
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-    <footer>
-      <div class="container text-center">
-        <p>Copyright &copy; Wilmington Community Evangelical Church 2018</p>
-      </div>
-    </footer>
+## Copyright and License
 
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSMurZNnp_7LULRmY-tJgMozQ4o7yogpA&sensor=false"></script>
-
-    <script src="js/grayscale.min.js"></script>
-
-  </body>
-
-</html>
+Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
